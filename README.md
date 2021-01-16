@@ -1,4 +1,8 @@
-# Enigma Web_Application
+# Enigma Web Application
+
+## What is "Enigma" ?
+Enigma means N + Sigma.     
+"Add all n pieces of information" means Enigma's corporate spirit to contribute to the world by adding all of our goals and core values.    
 
 ## Service Introduction
 __Enigma__ is an __educational hub__ where users can easily find and access online education classes by bringing them together so that anyone can get a good education.    
@@ -15,5 +19,6 @@ In the era of lifelong education, Enigma breaks down the educational barrier, he
 |Name|Email|Phone|Role|
 |----|-----|-----|----|
 |임정택|wjdxor6346@naver.com|010-8302-7713|Back-end/Front-end|
-|             |                   |                   |
-|             |                    |                    |
+|김민혁|                   |                   |
+|이채엽|                    |                    |
+|주창환|                    |                    |
