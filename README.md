@@ -1,6 +1,6 @@
 # Enigma Web Application
 
-## What is "Enigma"
+## What is __Enigma__
 Enigma means N + Sigma.     
 "Add all n pieces of information" means Enigma's corporate spirit to contribute to the world by adding all of our goals and core values.    
 
