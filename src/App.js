@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p> 좀되라!!!!!!!!!!<p/>
+      <p> 가나다라마바 </p>
       
     </div>
   );
