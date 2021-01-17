@@ -8,6 +8,7 @@ function App() {
       <h2>에니그마</h2>
       <div>안녕하세요.</div>
       <div>taek</div>
+      <h1>test</h1>
     </div>
   );
 }
