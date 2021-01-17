@@ -22,3 +22,9 @@ In the era of lifelong education, Enigma breaks down the educational barrier, he
 |김민혁|                   |                   |
 |이채엽|                    |                    |
 |주창환|                    |                    |
+
+## Dev Language and Tools
+|  |Language|Tools|
+|--|--------|-----|
+|Front-End|HTML,CSS,JavaScript|React.js|
+|Back-End|Java|Spring Boot|
