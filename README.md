@@ -20,7 +20,7 @@ In the era of lifelong education, Enigma breaks down the educational barrier, he
 |임정택|wjdxor6346@naver.com|010-8302-7713|Back-end/Front-end|
 |김민혁|                   |                   |
 |이채엽|                    |                    |
-|주창환|                    |                    |
+|주창환|         0           |                    |
 
 ## Our Discussion in Notion
 https://www.notion.so/96bd6f2399ea4fa6b595ab83d1942557
