@@ -13,7 +13,6 @@ In the era of lifelong education, Enigma breaks down the educational barrier, he
 + Internet course comparison capability
 + Recommend personalized classes through filtering and keyword analysis
 
-fdsf
 ## Developer
 
 |Name|Email|Phone|Role|
