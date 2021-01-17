@@ -1,16 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import TopBar from "./component/TopBar"
+import Home from "./routes/Home"
 
 function App() {
-  return (
-    <div className="App">
-      <p> 가나다라마바 </p>
-      <h2>에니그마</h2>
-      <div>안녕하세요.</div>
-      <div>taek</div>
-      <h1>test</h1>
-    </div>
-  );
+	return (
+		<div className="App">
+			<BrowserRouter>
+				<TopBar/>
+				<Route path="/" exact={true} component={Home}/>
+				{/* <Route path="/" exact={true} component={Home}/>
+				<Route path="/" exact={true} component={Home}/> */}
+			</BrowserRouter>
+			<h2>에니그마</h2>
+		</div>
+	);
 }
 
 export default App;
