@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <p> 가나다라마바 </p>
       <h2>에니그마</h2>
+      <h2>에니그마</h2>
     </div>
   );
 }
