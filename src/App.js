@@ -12,7 +12,6 @@ function App() {
 				{/* <Route path="/" exact={true} component={Home}/>
 				<Route path="/" exact={true} component={Home}/> */}
 			</BrowserRouter>
-			<h2>에니그마</h2>
 		</div>
 	);
 }
