@@ -1,0 +1,76 @@
+.customer_center {
+    width: 100%;
+
+    .customer_center_background {
+        display: flex;
+        justify-content: space-between;
+        background-color: #2b2b2b;
+        padding: 7% 12.5% 7% 12.5%;
+
+        .customer_center_title {
+            .enigma_logo {
+                width: 17rem;
+            }
+            h1 {
+                color: white;
+            }
+        }
+
+        .customer_center_image {
+            width: 22rem;
+        }
+
+        @media (max-width:1050px) {
+            .customer_center_image {
+                display: none;
+            }
+        }
+    }
+
+    .customer_center_tab_list {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 5.8vh;
+        z-index: 1;
+
+        .customer_center_tab {
+            display: flex;
+            color: white;
+            width: 66%;
+            height: 17vh;
+            flex-wrap: wrap;
+
+            .customer_center_tab1 {
+                background-color: #2763BB;
+                padding: 3%;
+                // height: 20vh;
+                flex-basis: 22%;
+                flex-grow: 1;
+            }
+
+            .customer_center_tab2 {
+                background-color: #018ACE;
+                padding: 3%;
+                // width: 22%;
+                // height: 20vh;
+                flex-basis: 22%;
+                flex-grow: 1;
+            }
+
+            .customer_center_tab3 {
+                background-color: #2DA490;
+                padding: 3%;
+                // width: 22%;
+                // height: 20vh;
+                flex-basis: 22%;
+                flex-grow: 1;
+            }
+
+            .customer_center_tab_image {
+                width: 10rem;
+                float: left;
+            }
+        }
+    }
+}
