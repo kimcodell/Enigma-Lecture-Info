@@ -1,0 +1,47 @@
+.container {
+    h2 {
+        display: inline-block;
+        color: #166FFB;
+        font-size: 1.7em;
+        margin-top: 0.7em;
+        margin-bottom: 0.1em;
+    }
+
+    span {
+        display: inline-block;
+        margin-left: 1%;
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #166FFB;
+    }
+
+    div {
+        dl {
+            dt {
+                margin-top: 1%;
+                margin-bottom: 0.5%;
+                font-weight: bold;
+                // color: #166FFB;
+            }
+            .sub {
+                margin-bottom: 1.5%;
+            }
+            .sup {
+                margin-top: 1.5%;
+            }
+            dd {
+                margin-left: 1.25rem;
+                padding-bottom: 0.4%;
+            }
+            i {
+                font-size: 0.9rem;
+            }
+            .center {
+                margin-left: 1.25rem;
+                dd {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,15 +1,17 @@
 .list_container {
     margin-top: 1.1em;
+    margin-bottom: 1.1em;
     width: 75%;
-    
+
     h1 {
         color: #166FFB;
+        font-size: 1.8em;
         margin-top: 0;
         margin-bottom: 0;
     }
 
     .lecture_selector {
-        font-size: 2rem;
+        font-size: 1.8em;
         display: flex;
         align-items: center;
         margin-bottom: 1%;
@@ -65,16 +67,17 @@
         }
     }
 }
+
 @media(max-width:800px) {
     .list_container {
         width: 96%;
 
         h1 {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
     
         .lecture_selector {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
     }
 }

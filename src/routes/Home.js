@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import LectureList from "../component/LectureList";
 import "./Home.scss"
 
-function Home() {
+const Home = () => {
 	const main = [{
 		"id": 111018,
 		"title": "[850점+목표] 해커스 토익 Listening Part 1,2 [2020 최신개정판]",
@@ -229,8 +230,9 @@ function Home() {
 			</div>
 			<div className="main_list">
 				{main.map(lecture => 
-					<LectureList 
+					<LectureList
 						key={lecture.id}
+						id={lecture.id}
 						title={lecture.title}
 						company={lecture.company}
 						teachers={lecture.teachers_list}

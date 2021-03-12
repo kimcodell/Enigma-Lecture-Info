@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./LectureList.scss"
 
-function LectureList({title, company, teachers, lecture_count, required_days, review_count, type, book_count, price}) {
+function LectureList({id, title, company, teachers, lecture_count, required_days, review_count, type, book_count, price}) {
 
     // const lectureTypeList = {"0": "LC", "1": "RC", "2": "종합"}
     let lectureType
@@ -19,9 +19,17 @@ function LectureList({title, company, teachers, lecture_count, required_days, re
 	return(
 		<div className="list">
             <img className="teacher_image" src={teachers[0].image} alt="선생님 이미지" />
-
             <div className="lecture_informaion">
-                <div className="title">{title}</div>
+                <Link 
+                    to={{
+                        pathname: `/detail/${id}`,
+                        state: {
+                            id
+                        }
+                    }}
+                >
+                    <div className="title">{title}</div>
+                </Link>
                 <div>
                     <span className="company">{company}</span> |
                     {teachers.map(teacher => 

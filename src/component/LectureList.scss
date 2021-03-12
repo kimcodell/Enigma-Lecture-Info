@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .list {
     border: 1.5px solid #00000029;
     display: flex;
@@ -11,7 +14,7 @@
     .lecture_informaion {
         padding: 5px 7px 0px 7px;
         flex-grow: 1;
-        
+
         div {
             margin-bottom: 1%;
         }
@@ -36,19 +39,21 @@
                     margin-left: 5px;
                     flex-basis: 4rem;
                 }
+                // dd::after {
+                //     content: "|";
+                // }
                 .second_col {
                     flex-grow: 1;
                 }
             }
         }
+        .price {
+            font-size: 1.15rem;
+            color: #FF5050;
+            font-weight: 600;
+        }
     }
-    
-    .price {
-        font-size: 1.15rem;
-        color: #FF5050;
-        font-weight: 600;
-    }
-
+        
     @media (max-width: 800px) {
         .lecture_informaion {
             .title {
