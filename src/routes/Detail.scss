@@ -1,0 +1,175 @@
+.container {
+    width: 75%;
+    margin-top: 1.1em;
+
+    .detail_info_container {
+        display: flex;
+        width: 100%;
+        padding-bottom: 1%;
+        border-bottom: 2px solid #707070;
+    
+        .teacher_image {
+            height: 11em;
+            padding: 5px 3px 0 3px;
+            box-shadow: 2px 2px 6px 1px #00000029;
+        }
+
+        a {
+            color: #166FFB;
+            font-weight: 700;
+        }
+    
+        .lecture_info {
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            margin-left: 1.15rem;
+            // width: 60%;
+            flex-grow: 1;
+    
+            .basic_info {
+                h2 {
+                    font-size: 1.25rem;
+                    color: #166FFB;
+                    margin: 0 0 0 5px;
+                }
+                span {
+                    margin-left: 5px;
+                    margin-right: 0.5rem;
+                }
+            }
+    
+            .books_info {
+                margin-left: 5px;
+                
+                h4 {
+                    color: #166FFB;
+                    margin: 0;
+                }
+                .each_book {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 0.5%;
+
+                    .book_title {
+                        flex-basis: 14rem;
+                    }
+        
+                    .book_price {
+                        color: #FF5050;
+                        font-weight: bold;
+                        flex-basis: 5rem;
+                    }
+                }
+            }
+        }
+        .lec_price_info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            button {
+                background-color: #F2F2F2;
+                color: #166FFB;
+                font-size: 1.25rem;
+                font-weight: bold;
+                display: block;
+                width: 7em;
+                height: 2.5em;
+                border: 1px solid #166FFB;
+                border-radius: 3.5em;
+                margin-top: 8%;
+                cursor: pointer;
+            }
+
+            .lecture_price {
+                color: #FF5050;
+                font-size: 2em;
+                font-weight: bold;
+            }
+        }
+    }
+    .content_container {
+        display: flex;
+        margin-top: 3%;
+        h3 {
+            display: inline-block;
+            margin: 0;
+            color: #166FFB;
+        }
+        .curriculum_container {
+            flex-grow: 1;
+            margin-right: 3%;
+            width: 34.5%;
+            display: flex;
+            flex-direction: column;
+            .curriculum_header {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid #707070;
+                span {
+                    margin-left: 0.5rem;
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+        .review_container {
+            flex-grow: 1;
+            margin-left: 3%;
+            width: 34.5%;
+            display: flex;
+            flex-direction: column;
+            .review_header {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid #707070;
+            }
+        }
+    }
+}
+
+@media(max-width:800px) {
+    .container {
+        width: 96%;
+        .detail_info_container {
+            .lecture_info {
+                .books_info {
+                    .each_book {
+                        .book_title {
+                            flex-basis: 11.5rem;
+                        }
+            
+                        .book_price {
+                            flex-basis: 4rem;
+                        }
+                    }
+                }
+            }
+            .lec_price_info {
+                button {
+                    // width: 5em;
+                    // height: 1.5em;
+                    font-size: 0.9em;
+                }
+                @media(max-width:550px) {
+                    .lecture_price{
+                        font-size: 1.15rem;
+                    }
+                }
+            }
+        }
+        .content_container {
+            flex-direction: column;
+            .curriculum_container {
+                width: 96%;
+                margin-right: 0;
+                
+            }
+            .review_container {
+                width: 96%;
+                margin-left: 0;
+            }
+        }
+    }
+}

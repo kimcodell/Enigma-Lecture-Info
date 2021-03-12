@@ -1,0 +1,33 @@
+table {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+
+    thead {
+        border-bottom: 1.5px solid #AAAAAA;
+        
+        td {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    }
+
+    tbody {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid #707070;
+    }
+
+    .each_lecture {
+        display: flex;
+        flex-grow: 1;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #AAAAAA;
+
+        .lecture_index {
+            flex-basis: 3rem;
+            padding-left: 2%;
+        }
+    }
+}
