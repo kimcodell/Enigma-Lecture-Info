@@ -100,7 +100,7 @@ function Detail({location}) {
 	}
 
 	return (
-		<div className="container">
+		<div className="detail_container">
 			<div className="detail_info_container">
 				<img className="teacher_image" src={teachers_list[0].image} alt="선생님 이미지" />
 				<div className="lecture_info">

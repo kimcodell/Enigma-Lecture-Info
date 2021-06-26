@@ -193,8 +193,8 @@ const Home = () => {
 	// const [lectures, setLectures] = useState([])
 
 	// const getLectures = async() => {
-	// 	const { data : {main : main} } = await axios.get("https://yts-proxy.now.sh/list_movies.json?sort_by=rating");
-	// 	setLectures(main)
+	// 	const { data : {main : main} } = await axios.get("");
+	// 	setLectures((prevLectures) => {[...prevLectures, main]});
 	// };
 
 	// useEffect(() => {

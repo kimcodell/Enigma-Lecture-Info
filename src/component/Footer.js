@@ -19,8 +19,8 @@ function Footer() {
 				<h4>CONTACT 에니그마</h4>
 				<div className="sns_link">
 					{/* <span>~~~~@!!!.com</span> */}
-					<a href="https://www.instagram.com/enigma.__official/" target="_blank" rel="noreferrer"><img src="./kakao.png" alt="카카오톡"/></a>
-					<a href="https://www.instagram.com/enigma.__official/" target="_blank" rel="noreferrer"><img src="./insta.png" alt="인스타그램"/></a>
+					<a href="https://www.instagram.com/enigma.__official/" target="_blank" rel="noreferrer"><img src="../kakao.png" alt="카카오톡"/></a>
+					<a href="https://www.instagram.com/enigma.__official/" target="_blank" rel="noreferrer"><img src="../insta.png" alt="인스타그램"/></a>
 				</div>
 			</div>
 		</footer>

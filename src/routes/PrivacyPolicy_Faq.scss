@@ -1,4 +1,7 @@
 .container {
+    width: 75%;
+    margin-top: 1.1em;
+
     h2 {
         display: inline-block;
         color: #166FFB;
@@ -43,5 +46,10 @@
                 }
             }
         }
+    }
+}
+@media(max-width:800px) {
+    .container {
+        width: 96%;
     }
 }
