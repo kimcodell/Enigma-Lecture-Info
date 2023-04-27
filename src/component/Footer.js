@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<div className="caution">
-				<h4>COPYRIGHT©2021 에니그마</h4>
+				<h4>COPYRIGHT©2023 에니그마</h4>
 				<span>
 					에니그마의 로고, 브랜드, AI 맞춤 추천 서비스 등은 에니그마의 자산입니다.<br />
 					무단 복제 또는 사용을 금합니다.
